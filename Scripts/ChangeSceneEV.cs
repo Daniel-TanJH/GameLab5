@@ -3,12 +3,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class ChangeSceneEV : MonoBehaviour
 {
-    public AudioSource changeSceneSound;
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
-            changeSceneSound.PlayOneShot(changeSceneSound.clip);
             StartCoroutine(ChangeScene("MarioLevel2"));
         }
     }

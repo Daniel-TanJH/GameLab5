@@ -21,7 +21,7 @@ public class MenuController : MonoBehaviour
     {
         if (/*Time.timeScale == 0.0f &&*/ Input.GetKeyDown(KeyCode.R)){
             Debug.Log("Game Restarting...");
-            SceneManager.LoadScene( SceneManager.GetActiveScene().name );
+            SceneManager.LoadScene( 0 );
         }
     }
 

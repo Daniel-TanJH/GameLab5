@@ -50,7 +50,7 @@ public class RedMushroom : MonoBehaviour, ConsumableInterface
         if (col.gameObject.CompareTag("Player"))
         {
             Debug.Log("Got Red Mushroom");
-            CentralManager.centralManagerInstance.addPowerup(t, index, this);
+            //CentralManager.centralManagerInstance.addPowerup(t, index, this);
             GetComponent<Collider2D>().enabled = false;
         }
     }
