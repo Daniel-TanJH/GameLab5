@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: a46ee59808e8d94408e39c2748dcce01
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - marioScore: {fileID: 11400000, guid: 0a20912684550504a9068bd0e41eb536, type: 2}
+  - text: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c94e14ab7a82c4ead9b62823c387a4, type: 3}
+  m_Name: GameConstants
+  m_EditorClassIdentifier: 
+  playerStartingMaxSpeed: 10
+  playerMaxJumpSpeed: 20
+  playerDefaultForce: 40
+  groundDistance: -4
+  gombaSpawnPointStart: {x: 2.5, y: -3.5, z: 0}
+  comsumeTimeStep: 10
+  groundSurface: -4
+  maxOffset: 5
+  enemyPatroltime: 2
+  mushroomSpeed: 5
