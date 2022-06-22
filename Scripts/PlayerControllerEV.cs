@@ -40,7 +40,7 @@ void Start()
     }
 
     if (Input.GetKeyDown("space") && onGroundState){
-        marioBody.AddForce(Vector2.up * marioUpSpeed.Value, ForceMode2D.Impulse);
+        marioBody.AddForce(Vector2.up * (marioUpSpeed.Value-10), ForceMode2D.Impulse);
         onGroundState = false;
 
         marioAnimator.SetBool("onGround", onGroundState);

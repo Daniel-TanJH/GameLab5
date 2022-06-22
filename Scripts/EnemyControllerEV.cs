@@ -32,12 +32,15 @@ public class EnemyControllerEV : MonoBehaviour
     {
       if (Mathf.Abs(enemyBody.position.x - originalX) < gameConstants.maxOffset)
       {
+        enemySprite.flipX = false;
         // move gomba
         MoveGomba();
+        
       }
       else{
         // change direction
         moveRight *= -1;
+        enemySprite.flipX = true;
         ComputeVelocity();
         MoveGomba();
       }
@@ -56,6 +59,7 @@ public class EnemyControllerEV : MonoBehaviour
     {
       if (other.gameObject.CompareTag("Player"))
       {
+        Debug.Log("Collide");
         float yoffset = (other.transform.position.y - this.transform.position.y);
         if (yoffset > 0.8f)
         {

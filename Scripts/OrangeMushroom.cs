@@ -49,8 +49,8 @@ public class OrangeMushroom : MonoBehaviour, ConsumableInterface
 
         if (col.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Got Orange Mushroom");
-            CentralManager.centralManagerInstance.addPowerup(t, index, this);
+            //Debug.Log("Got Orange Mushroom");
+//            CentralManager.centralManagerInstance.addPowerup(t, index, this);
             GetComponent<Collider2D>().enabled = false;
         }
     }

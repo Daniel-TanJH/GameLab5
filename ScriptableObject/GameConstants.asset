@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerStartingMaxSpeed: 10
   playerMaxJumpSpeed: 20
-  playerDefaultForce: 40
-  groundDistance: -4
+  playerDefaultForce: 20
+  groundDistance: -4.1
   gombaSpawnPointStart: {x: 2.5, y: -3.5, z: 0}
   comsumeTimeStep: 10
-  groundSurface: -4
+  groundSurface: -4.1
   maxOffset: 5
   enemyPatroltime: 2
   mushroomSpeed: 5
